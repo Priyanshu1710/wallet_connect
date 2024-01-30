@@ -14,17 +14,25 @@ export const QUOTER_CONTRACT_ADDRESS =
 
 
 export const WETH_TOKEN = new Token(
-    SupportedChainId[1],
-    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    SupportedChainId[7],
+    "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
     18,
     "WETH",
     "Wrapped Ether"
 )
 
 export const USDC_TOKEN = new Token(
-    SupportedChainId[1],
+    SupportedChainId[7],
     "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
     6,
     "USDC",
+    "USD//C"
+)
+
+export const UNI_TOKEN = new Token(
+    SupportedChainId[7],
+    "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+    18,
+    "UNI",
     "USD//C"
 )
